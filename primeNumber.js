@@ -14,11 +14,11 @@ else if (num < 1) {
     return;
 }
 
-//If the number greater than 1, then check whether it is only divided by only 2 numbers or more
+//If the number is greater than 1, then check whether it is only divided by only 2 numbers or more numbers
 else {
     for (let i = 2; i < num; i++) {
         if (num % i === 0) {
-            //If number is divided by 'i', then increse the flag
+            //If number is divided by 'i', then increase the flag
             flag++;
         }
     }
