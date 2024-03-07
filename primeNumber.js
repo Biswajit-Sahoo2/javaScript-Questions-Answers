@@ -5,7 +5,7 @@ let flag = 0;
 
 //If the number is 1, then it is prime
 if (num === 1) {
-    console.log(`${num} is prime`);
+    console.log(`${num} is neither prime nor composite number`);
 }
 
 //If the number is 0 or less than 0 give a warning
